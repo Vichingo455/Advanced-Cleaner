@@ -51,6 +51,7 @@ echo ---------------------------------------
 echo
 echo Stage 4 - Restarting PC...
 echo ---------------------------------------
-echo Restarting... ---------------------------------------
+echo Restarting... 
+echo ---------------------------------------
 timeout 5 > NUL
 wmic os where primary=1 reboot
