@@ -29,7 +29,7 @@ echo ---------------------------------------
 echo
 echo Stage 2 - Repairing disk...
 echo ---------------------------------------
-echo sfc /scannow
+sfc /scannow
 echo ---------------------------------------
 
 :Stage3 - CleanDisk
@@ -40,7 +40,7 @@ echo ---------------------------------------
 echo 
 echo Stage 3 - Cleaning disk...
 echo ---------------------------------------
-echo cleanmgr /d c:
+cleanmgr /d c:
 echo ---------------------------------------
 
 :Stage4 - RestartPC
