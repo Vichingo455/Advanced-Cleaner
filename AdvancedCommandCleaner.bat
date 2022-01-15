@@ -1,5 +1,5 @@
 @echo off
-clr
+cls
 color a
 title Advanced Command Cleaner
 echo ---------------------------------------
@@ -11,7 +11,7 @@ echo ---------------------------------------
 echo Processing...
 
 :Stage1 - CheckDisk
-clr
+cls
 echo ---------------------------------------
 echo Advanced Command Cleaner
 echo ---------------------------------------
@@ -22,7 +22,7 @@ chkdsk c: /f
 echo ---------------------------------------
 
 :Stage2 - RepairDisk
-clr
+cls
 echo ---------------------------------------
 echo Advanced Command Cleaner
 echo ---------------------------------------
@@ -33,7 +33,7 @@ sfc /scannow
 echo ---------------------------------------
 
 :Stage3 - CleanDisk
-clr
+cls
 echo ---------------------------------------
 echo Advanced Command Cleaner
 echo ---------------------------------------
@@ -44,7 +44,7 @@ cleanmgr /d c:
 echo ---------------------------------------
 
 :Stage4 - RestartPC
-clr
+cls
 echo ---------------------------------------
 echo Advanced Command Cleaner
 echo ---------------------------------------
