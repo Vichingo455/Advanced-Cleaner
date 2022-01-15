@@ -15,7 +15,7 @@ cls
 echo ---------------------------------------
 echo Advanced Command Cleaner
 echo ---------------------------------------
-echo
+echo.
 echo Stage 1 - Checking disk...
 echo ---------------------------------------
 chkdsk c: /f
@@ -26,7 +26,7 @@ cls
 echo ---------------------------------------
 echo Advanced Command Cleaner
 echo ---------------------------------------
-echo
+echo.
 echo Stage 2 - Repairing disk...
 echo ---------------------------------------
 sfc /scannow
@@ -37,7 +37,7 @@ cls
 echo ---------------------------------------
 echo Advanced Command Cleaner
 echo ---------------------------------------
-echo 
+echo.
 echo Stage 3 - Cleaning disk...
 echo ---------------------------------------
 cleanmgr /d c:
@@ -48,7 +48,7 @@ cls
 echo ---------------------------------------
 echo Advanced Command Cleaner
 echo ---------------------------------------
-echo
+echo.
 echo Stage 4 - Restarting PC...
 echo ---------------------------------------
 echo Restarting... 
